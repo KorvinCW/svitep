@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Svitep</title>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row header">
+                <div class="header__logo"></div>
+                <div class="header__partner"></div>
+                <div class="header__text">
+                    г.Киев, улица Красивая, 48<br/>
+                    время работы с 9:00 до 18:00
+                </div>
+                <div class="header__phone">
+                    <ul class="phone_block">
+                        <li>
+                            <img src="img/arrow_down.png" alt="">
+                            <img src="img/kievstar.png" alt="">
+                            +3809999999
+                            <ul class="phone_block__list">
+                                <li>
+                                    <p><img src="img/kievstar.png" alt="">+3809999999</p>
+                                </li>
+                                <li>
+                                    <p><img src="img/kievstar.png" alt="">+3809999999</p>
+                                </li>
+                                <li>
+                                    <p><img src="img/kievstar.png" alt="">+3809999999</p>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <button>Заказать звонок</button>
+                </div>
+                <div class="header__leanguage">
+                    <span><a href="#" class="active_lang">ru</a></span>/
+                    <span><a href="#">ua</a></span>/
+                    <span><a href="#">en</a></span>
+                </div>
+            </div>          
+        </div>
+
+        <div class="container-fluid">
+            <div class="row main_menu">
+                <ul>
+                    <li><a href="#">Окна и двери</a></li>
+                    <li><a href="#">Аксессуары и сервис</a></li>
+                    <li><a href="#">О компании</a></li>
+                    <li><a href="#">Наши работы</a></li>
+                    <li><a href="#">Новости</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="container">
+            <section class="row top_slider">
+                <h2>Компания свитеп - дарим свет сохраняем тепло</h2>
+                <div class="all">
+                    <article class="slider">
+                        <div class="slides">
+                            <div class="overflow">
+                                <div class="mySlides3">
+                                    <div class="top_slider__full_slide">
+                                        <img src="img/screen.png" style="width:100%; height: 100%;">
+                                        <section class="top_slider__slide_description">
+                                            <h2>Окна и двери</h2>
+                                            <p>
+                                                Давно выяснено, что при оценке дизайна и
+                                                композициичитаемый текст мешает сосредоточиться.
+                                                Lorem lpsum используют потому, что тот обеспечивает
+                                                более или менее стандартное заполнение шаблона
+                                            </p>
+                                            <button>Выбрать окна в 1 клик</button>
+                                        </section>
+                                    </div>
+                                </div>
+
+                                <div class="mySlides3" style="display: none;">
+                                    <div class="top_slider__full_slide">
+                                        <img src="img/screen.png" style="width:100%; height: 100%;">
+                                        <section class="top_slider__slide_description">
+                                            <h2>Окна и двери 2</h2>
+                                            <p>
+                                                Давно выяснено, что при оценке дизайна и
+                                                композициичитаемый текст мешает сосредоточиться.
+                                                Lorem lpsum используют потому, что тот обеспечивает
+                                                более или менее стандартное заполнение шаблона
+                                            </p>
+                                            <button>Выбрать окна в 1 клик</button>
+                                        </section>
+                                    </div>
+                                </div>
+
+                                <div class="mySlides3" style="display: none;">
+                                    <div class="top_slider__full_slide">
+                                        <img src="img/screen.png" style="width:100%; height: 100%;">
+                                        <section class="top_slider__slide_description">
+                                            <h2>Окна и двери 3</h2>
+                                            <p>
+                                                Давно выяснено, что при оценке дизайна и
+                                                композициичитаемый текст мешает сосредоточиться.
+                                                Lorem lpsum используют потому, что тот обеспечивает
+                                                более или менее стандартное заполнение шаблона
+                                            </p>
+                                            <button>Выбрать окна в 1 клик</button>
+                                        </section>
+                                    </div>
+                                </div>
+                                <img src="img/arrow_left.png" class="w3-button w3-display-left" onclick="changeSlide(-1, 'mySlides3')">
+                                <img src="img/arrow_right.png" class="w3-button w3-display-right" onclick="changeSlide(1, 'mySlides3')">
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <div class="row menu">
+                <div class="menu__button">
+                    <a href="#">
+                        <div class="menu__image first_image"></div>
+                        <p>Акции и предложения</p>
+                    </a>
+                </div>
+
+                <div class="menu__button">
+                    <a href="#">
+                        <div class="menu__image second_image"></div>
+                        <p>Обзор систем</p>
+                    </a>
+                </div>
+
+                <div class="menu__button">
+                    <a href="#">
+                        <div class="menu__image third_image"></div>
+                        <p>Написать директору</p>
+                    </a>
+                </div>
+
+                <div class="menu__button">
+                    <a href="#">
+                        <div class="menu__image fourth_image"></div>
+                        <p>Выбрать окно в один клик</p>
+                    </a>
+                </div>
+            </div>
+
+            <section class="row shares">
+                <h2 class="left_heading">Акции</h2>
+                <div class="shares__block">
+                    <div class="shares__block__item">
+                        <img src="img/window.png" alt="">
+                        <p class="old_price">10 000</p>
+                        <p>5000</p>
+                        <button>Заказать</button>
+                    </div>
+
+                    <div class="shares__block__item">
+                        <img src="img/window.png" alt="">
+                        <p class="old_price">10 000</p>
+                        <p>5000</p>
+                        <button>Заказать</button>
+                    </div>
+
+                    <div class="shares__block__item">
+                        <img src="img/window.png" alt="">
+                        <p class="old_price">10 000</p>
+                        <p>5000</p>
+                        <button>Заказать</button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="row news">
+                <h2 class="right_heading">Новости</h2>
+                <div class="news__main">
+                    <div class="news__block">
+                        <a href="#">
+                            <div class="news__block__img">
+                                <img src="img/news_img.png" alt="">
+                            </div>
+                            <div class="news__block__description">
+                                <h4>Когда менять окна?</h4>
+                                <p>Ответ на этот вопрос зависит от того,
+                                    когда вы собираетесь делать ремонт...
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="news__block">
+                        <a href="#">
+                            <div class="news__block__img">
+                                <img src="img/news_img.png" alt="">
+                            </div>
+                            <div class="news__block__description">
+                                <h4>Когда менять окна?</h4>
+                                <p>Ответ на этот вопрос зависит от того,
+                                    когда вы собираетесь делать ремонт...
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="news__block">
+                        <a href="#">
+                            <div class="news__block__img">
+                                <img src="img/news_img.png" alt="">
+                            </div>
+                            <div class="news__block__description">
+                                <h4>Когда менять окна?</h4>
+                                <p>Ответ на этот вопрос зависит от того,
+                                    когда вы собираетесь делать ремонт...
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="news__button">
+                    <button>Читать больше новостей</button>
+                </div>
+            </section>
+
+            <section class="row select_window">
+                <h2 class="left_heading">Выбрать окна в 1 клик</h2>
+                <div class="select_window__block">
+                    <div class="select_window__item"><a href="#"><img src="img/house.png" class="first_img" alt="">Для дома</a></div>
+                    <div class="select_window__item"><a href="#"><img src="img/flat.png" class="second_img" alt="">Для квартиры</a></div>
+                    <div class="select_window__item"><a href="#"><img src="img/balcony.png" class="third_img" alt="">Балкон</a></div>
+                    <div class="select_window__item"><a href="#"><img src="img/design.png" class="fourth_img" alt="">Дизайн</a></div>
+                    <div class="select_window__item"><a href="#"><img src="img/price.png" alt="">Цена</a></div>
+                    <div class="select_window__item"><a href="#"><div class="test"><img src="img/sliding.png" alt=""></div><div class="test">Раздвижные системы</div></a></div>
+                    <div class="select_window__item"><a href="#"><img src="img/facades.png" alt="">Фасады</a></div>
+                    <div class="select_window__item"><a href="#"><img src="img/exclusive.png" alt="">Эксклюзив</a></div>
+                </div>
+            </section>
+
+            <section class="row useful_video">
+                <h2 class="right_heading">Полезные видео</h2>
+                <div class="all">
+                    <article class="slider">
+                        <div class="slides">
+                            <div class="overflow">
+                                <div class="image w3-content">
+                                    <div class="slide mySlides">
+                                        <div class="slide__block slide_js">
+                                            <iframe width="350" height="250" src="https://www.youtube.com/embed/5U8AswJxYpk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                            <p>Защита окон от падения детей1</p>
+                                        </div>
+                                        <div class="slide__block slide_js">
+                                            <iframe width="350" height="250" src="https://www.youtube.com/embed/5U8AswJxYpk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                            <p>Защита окон от падения детей2</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="slide mySlides" style="display: none;">
+                                        <div class="slide__block slide_js">
+                                            <iframe width="350" height="250" src="https://www.youtube.com/embed/5U8AswJxYpk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                            <p>Защита окон от падения детей3</p>
+                                        </div>
+                                        <div class="slide__block slide_js">
+                                            <iframe width="350" height="250" src="https://www.youtube.com/embed/5U8AswJxYpk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                            <p>Защита окон от падения детей4</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="slide mySlides" style="display: none;">
+                                        <div class="slide__block slide_js">
+                                            <iframe width="350" height="250" src="https://www.youtube.com/embed/5U8AswJxYpk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                            <p>Защита окон от падения детей5</p>
+                                        </div>
+                                        <div class="slide__block slide_js">
+                                            <iframe width="350" height="250" src="https://www.youtube.com/embed/5U8AswJxYpk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                            <p>Защита окон от падения детей6</p>
+                                        </div>
+                                    </div>
+                                    <img src="img/arrow_left.png" class="w3-button w3-display-left" onclick="changeSlide(-1, 'mySlides')">
+                                    <img src="img/arrow_right.png" class="w3-button w3-display-right" onclick="changeSlide(1, 'mySlides')">
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section class="row accessories">
+                <h2 class="left_heading">Аксессуары и сервис</h2>
+                <div class="accessories__block">
+                    <div class="accessories__item">
+                        <img src="img/news_img.png" alt="">
+                        <h4>Жалюзи и роллеты</h4>
+                        <p>
+                            Ответ на этот вопрос
+                            напрямую зависит от того,
+                            когда вы собираетесь делать
+                            ремонт...
+                        </p>
+                        <a href="#">Подробнее</a>
+                    </div>
+
+                    <div class="accessories__item">
+                        <img src="img/news_img.png" alt="">
+                        <h4>Монтаж по ДСТУ</h4>
+                        <p>
+                            Ответ на этот вопрос
+                            напрямую зависит от того,
+                            когда вы собираетесь делать
+                            ремонт...
+                        </p>
+                        <a href="#">Подробнее</a>
+                    </div>
+
+                    <div class="accessories__item">
+                        <img src="img/news_img.png" alt="">
+                        <h4>Откосы</h4>
+                        <p>
+                            Ответ на этот вопрос
+                            напрямую зависит от того,
+                            когда вы собираетесь делать
+                            ремонт...
+                        </p>
+                        <a href="#">Подробнее</a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="row about_company">
+                <h2 class="right_heading">Преимущества компании</h2>
+                <div class="all">
+                    <article class="slider">
+                        <div class="slides">
+                            <div class="overflow">
+
+                                <div class="mySlides2">
+                                    <div class="slide__block__full_slide">
+                                        <img src="img/full_slide.png" style="width:100%; height: 100%;">
+                                        <div class="about_company__slide_description">
+                                            <span>1</span> Собственное производство
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="mySlides2" style="display: none;">
+                                    <div class="slide__block__full_slide">
+                                        <img src="img/full_slide.png" style="width:100%; height: 100%;">
+                                        <div class="about_company__slide_description">
+                                            <span>2</span> Собственное производство
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="mySlides2" style="display: none;">
+                                    <div class="slide__block__full_slide">
+                                        <img src="img/full_slide.png" style="width:100%; height: 100%;">
+                                        <div class="about_company__slide_description">
+                                            <span>3</span> Собственное производство
+                                        </div>
+                                    </div>
+                                </div>
+                                <img src="img/arrow_left.png" class="w3-button w3-display-left" onclick="changeSlide(-1, 'mySlides2')">
+                                <img src="img/arrow_right.png" class="w3-button w3-display-right" onclick="changeSlide(1, 'mySlides2')">
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section class="row gallery_objects">
+                <h2 class="left_heading">Галерея объектов</h2>
+                <div class="gallery_objects__slider all">
+                    <input checked type="radio" name="respond" class="desktop">
+                    <article class="slider">
+                        <input checked type="radio" name="slider" id="first">
+                        <input type="radio" name="slider" id="second">
+                        <input type="radio" name="slider" id="third">
+                        <div class="slides">
+                            <div class="overflow">
+                                <div class="image">
+                                    <div class="slide">
+                                        <div class="slide__block">
+                                            <img src="img/news_img.png" alt="">
+                                        </div>
+                                        <div class="slide__block">
+                                            <img src="img/news_img.png" alt="">
+                                        </div>
+                                        <div class="slide__block">
+                                            <img src="img/news_img.png" alt="">
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="slide">
+                                        <div class="slide__block">
+                                            <img src="img/news_img.png" alt="">
+                                        </div>
+                                        <div class="slide__block">
+                                            <img src="img/news_img.png" alt="">
+                                        </div>
+                                        <div class="slide__block">
+                                            <img src="img/news_img.png" alt="">
+                                        </div>
+                                    </div>
+                                
+                                    <div class="slide">
+                                        <div class="slide__block">
+                                            <img src="img/news_img.png" alt=""> 
+                                        </div>
+                                        <div class="slide__block">
+                                            <img src="img/news_img.png" alt="">
+                                        </div>
+                                        <div class="slide__block">
+                                            <img src="img/news_img.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider_controls">
+                            <label for="first"></label>
+                            <label for="second"></label>
+                            <label for="third"></label>
+                        </div>
+                        <div class="slider_active">
+                            <label for="first"></label>
+                            <label for="second"></label>
+                            <label for="third"></label>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section class="row reviews">
+                <h2 class="right_heading">Отзывы наших клиентов</h2>
+                <div class="reviews__block">
+                    <div class="reviews__item">
+                        <img src="img/client.png" alt="">
+                        <div class="reviews__item__description">
+                            <h4>Игорь Красивый</h4>
+                            <p>Архитектор</p><br/>
+                            <i>
+                                Про эту фирму узнала случайно, 
+                                просто проезжала мимо. 
+                                Результатами сотрудничества очень 
+                                довольна. Поставили окна и 
+                                балконную дверь. Все выполнено 
+                                качественно и быстро. Спасибо 
+                                людям, работающим здесь. Буду 
+                                рекомендовать Вас своим друзьям 
+                                и знакомым.
+                            </i>
+                        </div>
+                    </div>
+
+                    <div class="reviews__item">
+                        <img src="img/client.png" alt="">
+                        <div class="reviews__item__description">
+                            <h4>Игорь Красивый</h4>
+                            <p>Архитектор</p><br/>
+                            <i>
+                                Про эту фирму узнала случайно, 
+                                просто проезжала мимо. 
+                                Результатами сотрудничества очень 
+                                довольна. Поставили окна и 
+                                балконную дверь. Все выполнено 
+                                качественно и быстро. Спасибо 
+                                людям, работающим здесь. Буду 
+                                рекомендовать Вас своим друзьям 
+                                и знакомым.
+                            </i>
+                        </div>
+                    </div>
+                    
+                    <div class="reviews__item">
+                        <img src="img/client.png" alt="">
+                        <div class="reviews__item__description">
+                            <h4>Игорь Красивый</h4>
+                            <p>Архитектор</p><br/>
+                            <i>
+                                Про эту фирму узнала случайно, 
+                                просто проезжала мимо. 
+                                Результатами сотрудничества очень 
+                                довольна. Поставили окна и 
+                                балконную дверь. Все выполнено 
+                                качественно и быстро. Спасибо 
+                                людям, работающим здесь. Буду 
+                                рекомендовать Вас своим друзьям 
+                                и знакомым.
+                            </i>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="row call_form">
+                <h2 class="left_heading">Вызов замерщика</h2>
+                <p>Оставте ваш номер телефона и мы перезвоним вам через 7 секунд!</p>
+                <form action="" class="call_form__form" method="post">
+                    <input type="text" name="name" placeholder="Ваше имя"><br/>
+                    <input type="tel" name="phone" placeholder="Ваш телефон"><br/>
+                    <input type="submit" value="Отправить">
+                </form>
+            </section>
+
+            <section class="row partners">
+                <h2 class="right_heading">Партнеры</h2>
+                <div class="partners__block">
+                    <img src="img/stroitel.png" class="partners__block__big" alt="">
+                    <img src="img/logo_roto.png" class="partners__block__big" alt="">
+                    <img src="img/maco_logo.png" class="partners__block__big" alt="">
+                    <img src="img/rehau.png" class="partners__block__big" alt="">
+                    <img src="img/sozidatel.png" class="partners__block__small" alt="">
+                    <img src="img/axor.png" class="partners__block__small" alt="">
+                    <img src="img/glas_trsch.png" class="partners__block__big" alt="">
+                </div>
+            </section>
+
+            <section class="row certificates">
+                <h2 class="left_heading">Сертификаты и награды</h2>
+                <div class="certificates__block">
+                    <img src="img/sertificates.png" alt="">
+                    <img src="img/sertificates.png" alt="">
+                    <img src="img/sertificates.png" alt="">
+                </div>
+            </section>
+
+            <div class="row map">
+                <div class="map__block">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d8899.20763247856!2d35.05728723776829!3d48.461321126281476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1524068749009" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <div class="map__block__description">
+                        <div class="first_block">
+                            <p>Контактная</p>
+                            <span>информация</span>
+                        </div>
+                        <div class="second_block">
+                            <span class="text_gray">Адрес</span><br>
+                            <p>г.Днепр,ул.Улица,78</p>
+                            <span class="text_gray">Телефон</span><br>
+                            <span>(000)000-00-00,</span><br>
+                            <p>(000)000-00-00</p>
+                            <span class="text_gray">Почта</span><br>
+                            <span>svitep@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row footer">
+                <span>2002-2018 Свитеп</span><br>
+                <span>Киев,ул. Красивая, 48</span><br>
+                <span>(000)000-00-00</span><br>
+                <span>(000)000-00-00</span><br>
+                <span>svitep@gmail.com</span>
+            </div>
+        </div>
+
+        <script src="js/sliders.js"></script>
+    </body>
+</html>
